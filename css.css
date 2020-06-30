@@ -1,0 +1,111 @@
+body {
+    background-color: rgb(103, 97, 190);
+    color: whitesmoke;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Audiowide', cursive;
+    font-size: 75px;
+}
+
+h1:hover {
+    color: violet;
+    transition: all .3s;
+}
+
+button {
+    height: 2rem;
+    width: 6rem;
+    background-color: rgb(192, 56, 174);
+    color: whitesmoke;
+    font-weight: bolder;
+}
+
+button:hover {
+    height: 3rem;
+    width: 7rem;
+    background-color: whitesmoke;
+    transition: all .3s;
+    color: violet;
+}
+
+input {
+    height: 1.68rem;
+    background-color: rgb(248, 142, 248);
+    text-align: center;
+}
+
+input:hover {
+    background-color: white;
+    color: rgb(248, 142, 248);
+    height: 2rem;
+    width: 15rem;
+    transition: all .3s;
+    font-weight: bolder;
+}
+
+::placeholder {
+    text-align: center;   
+    color: whitesmoke;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+input:hover::placeholder {
+    color: rgb(248, 142, 248);
+    transition: all .3s;
+}
+
+#imageSearch {
+    padding-top: 1rem;
+}
+
+#bottomText {
+    padding-top: .25rem;
+}
+
+h2 {
+    font-size: 40px;
+    border: solid white 2px;
+    width: 60rem;
+    text-align: center;
+    display: inline-block;
+}
+
+h3 {
+ font-size: 40px;
+ padding-top: 20px;
+ text-transform: uppercase;
+ font-family: 'Bevan', cursive;
+ letter-spacing: 1px;
+ -webkit-text-stroke-color: black;
+ -webkit-text-stroke-width: 2px;
+}
+
+h4 {
+    font-size: 40px;
+    padding-top: 550px;
+    text-transform: uppercase;
+    font-family: 'Bevan', cursive;
+    letter-spacing: 1px;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 2px;
+}
+
+#memeContainer {
+    border: solid black 3px;
+    display: inline-block;
+    text-align: center;
+    width: 60rem;
+    height: 100%;
+    background-image: url(https://imgflip.com/s/meme/One-Does-Not-Simply.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+i {
+    padding-left: 5rem;
+    padding-right: 5rem;
+}

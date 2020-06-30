@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css.css">
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link href="https://fonts.googleapis.com/css2?family=Bevan&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Meme Generator</h1>
+    <div>
+        <form action="" id="memeForm">
+            <div id="topText">
+                <input type="text" id="topTextInput" placeholder="ENTER TOP TEXT">
+            </div>
+            <div id="bottomText">
+                <input type="text" id="bottomTextInput" placeholder="ENTER BOTTOM TEXT">
+            </div>
+            <div id="imageSearch">
+                <input type="text" id="imageSearchInput" placeholder="ENTER IMAGE URL">
+                <button type="submit" id="imageSearchButton">Submit</button>
+            </div>
+        </form>
+    </div>
+        <h2><i class="fas fa-angle-double-down"></i> IMAGE RENDER <i class="fas fa-angle-double-down"></i></h2>
+    <div id="memeContainer">
+        <h3 id="topTextRender">MEME TOP TEXT</h3>
+        <h4 id="bottomTextRender">MEME BOTTOM TEXT</h4>
+    </div>
+    <script src="js.js"></script>
+</body>
+</html>
+
+<!-- https://api.imgflip.com/get_memes -->
